@@ -269,9 +269,13 @@ export type SiteConfig = {
   copyright: string
   /** Privacy Policy */
   privacy_policy: string
+  /** Custom Disclaimer */
+  custom_disclaimer: string
 
   icon: string
   icon_background: string
+
+  show_workflow_steps: boolean
 }
 
 /**

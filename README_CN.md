@@ -35,6 +35,7 @@
   <a href="./README_ES.md"><img alt="上个月的提交次数" src="https://img.shields.io/badge/西班牙语-d9d9d9"></a>
   <a href="./README_KL.md"><img alt="上个月的提交次数" src="https://img.shields.io/badge/法语-d9d9d9"></a>
   <a href="./README_FR.md"><img alt="上个月的提交次数" src="https://img.shields.io/badge/克林贡语-d9d9d9"></a>
+  <a href="./README_KR.md"><img alt="上个月的提交次数" src="https://img.shields.io/badge/韓國語-d9d9d9"></a>
 </div>
 
 
@@ -111,7 +112,7 @@ Dify 是一个开源的 LLM 应用开发平台。其直观的界面结合了 AI 
     <td align="center">Agent</td>
     <td align="center">✅</td>
     <td align="center">✅</td>
-    <td align="center">✅</td>
+    <td align="center">❌</td>
     <td align="center">✅</td>
   </tr>
   <tr>
@@ -185,10 +186,11 @@ docker compose up -d
 
 #### 使用 Helm Chart 部署
 
-使用 [Helm Chart](https://helm.sh/) 版本，可以在 Kubernetes 上部署 Dify。
+使用 [Helm Chart](https://helm.sh/) 版本或者 YAML 文件，可以在 Kubernetes 上部署 Dify。
 
 - [Helm Chart by @LeoQuote](https://github.com/douban/charts/tree/master/charts/dify)
 - [Helm Chart by @BorisPolonsky](https://github.com/BorisPolonsky/dify-helm)
+- [YAML 文件 by @Winson-030](https://github.com/Winson-030/dify-kubernetes)
 
 ### 配置
 

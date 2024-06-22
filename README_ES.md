@@ -35,6 +35,7 @@
   <a href="./README_ES.md"><img alt="Actividad de Commits el último mes" src="https://img.shields.io/badge/Español-d9d9d9"></a>
   <a href="./README_KL.md"><img alt="Actividad de Commits el último mes" src="https://img.shields.io/badge/Français-d9d9d9"></a>
   <a href="./README_FR.md"><img alt="Actividad de Commits el último mes" src="https://img.shields.io/badge/Klingon-d9d9d9"></a>
+  <a href="./README_KR.md"><img alt="Actividad de Commits el último mes" src="https://img.shields.io/badge/한국어-d9d9d9"></a>
 </p>
 
 #
@@ -111,7 +112,7 @@ es basados en LLM Function Calling o ReAct, y agregar herramientas preconstruida
     <td align="center">Agente</td>
     <td align="center">✅</td>
     <td align="center">✅</td>
-    <td align="center">✅</td>
+    <td align="center">❌</td>
     <td align="center">✅</td>
   </tr>
   <tr>
@@ -191,10 +192,11 @@ Si necesitas personalizar la configuración, consulta los comentarios en nuestro
 
 . Después de realizar los cambios, ejecuta `docker-compose up -d` nuevamente. Puedes ver la lista completa de variables de entorno [aquí](https://docs.dify.ai/getting-started/install-self-hosted/environments).
 
-Si deseas configurar una instalación altamente disponible, hay [Gráficos Helm](https://helm.sh/) contribuidos por la comunidad que permiten implementar Dify en Kubernetes.
+Si desea configurar una configuración de alta disponibilidad, la comunidad proporciona [Gráficos Helm](https://helm.sh/) y archivos YAML, a través de los cuales puede desplegar Dify en Kubernetes.
 
 - [Gráfico Helm por @LeoQuote](https://github.com/douban/charts/tree/master/charts/dify)
 - [Gráfico Helm por @BorisPolonsky](https://github.com/BorisPolonsky/dify-helm)
+- [Ficheros YAML por @Winson-030](https://github.com/Winson-030/dify-kubernetes)
 
 
 ## Contribuir
